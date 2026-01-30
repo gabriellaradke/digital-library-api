@@ -22,9 +22,9 @@ library-manager/\
 │   │   ├── services.py\
 │   │   ├── utils.py\
 │   │   └── routers/\
-│   │       ├── books.py\
-│   │       ├── loans.py\
-│   │       └── users.py\
+│   │   └── ├── books.py\
+│   │   └── ├── loans.py\
+│   │   └── └── users.py\
 │   └── requirements.txt\
 ├── data/\
 │   └── library.db\
