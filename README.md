@@ -2,7 +2,7 @@
 
 ## 🚀 Getting Started
 
-Welcome to Digital Library API. This application allows you to manage books easily (at least I hope it does). Keep in mind this is the first API I've ever built, so there might be some errors! 
+Welcome to Digital Library API. This application allows you to manage books easily. Keep in mind this is the first API I've ever built, so there might be some errors! 
 
 ## 💻 Requirements
 
@@ -10,26 +10,26 @@ Welcome to Digital Library API. This application allows you to manage books easi
 
 ## 📁 Structure
 
-library-manager/
-├── backend/
-│   ├── api/
-│   │   ├── crud.py
-│   │   ├── database.py
-│   │   ├── logging_config.py
-│   │   ├── main.py
-│   │   ├── models.py
-│   │   ├── schemas.py
-│   │   ├── services.py
-│   │   ├── utils.py
-│   │   └── routers/
-│   │       ├── books.py
-│   │       ├── loans.py
-│   │       └── users.py
-│   └── requirements.txt
-├── data/
-│   └── library.db
-├── logs/
-│   └── app.log
+library-manager/\
+├── backend/\
+│   ├── api/\
+│   │   ├── crud.py\
+│   │   ├── database.py\
+│   │   ├── logging_config.py\
+│   │   ├── main.py\
+│   │   ├── models.py\
+│   │   ├── schemas.py\
+│   │   ├── services.py\
+│   │   ├── utils.py\
+│   │   └── routers/\
+│   │       ├── books.py\
+│   │       ├── loans.py\
+│   │       └── users.py\
+│   └── requirements.txt\
+├── data/\
+│   └── library.db\
+├── logs/\
+│   └── app.log\
 └── README.md
 
    - **crud**: advanced operations 
@@ -77,37 +77,36 @@ After installing the requirements and running the api!
 
 Some examples:
 
-   ➕ **Create a user**
-   POST/users
-{
-  "name": "your name",
-  "email": "youremail@email.com"
+   ➕ **Create a user**\
+   POST/users\
+{\
+  "name": "your name",\
+  "email": "youremail@email.com"\
 }
 
-   ➕ **Create a book**
-   POST/books
-{
-  "title": "your book",
-  "author": "your author",
-  "total_copies": 1
+   ➕ **Create a book**\
+   POST/books\
+{\
+  "title": "your book",\
+  "author": "your author",\
+  "total_copies": 1\
 }
 
-   🔄 **Lend a book**
-   POST/loans
-{
-  "user_id": 1,
-  "book_id": 1
+   🔄 **Lend a book**\
+   POST/loans\
+{\
+  "user_id": 1,\
+  "book_id": 1\
 }
 
-   🧪 **Healthcheck**
-   GET/health
-{
-  "status": "ok"
+   🧪 **Healthcheck**\
+   GET/health\
+{\
+  "status": "ok"\
 }
 
 ## 🧾 Future work
 
-Some things that still need treatment: a user can borrow
 
 
 
